@@ -56,4 +56,9 @@ public class PaymentServiceTest {
         Assert.assertTrue(1994 > 2002);
     }
 
+    @Test
+    void shouldPass() {
+        Assert.assertTrue(1994 < 2002);
+    }
+
 }
